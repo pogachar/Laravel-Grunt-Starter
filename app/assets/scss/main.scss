@@ -1,0 +1,16 @@
+// REMAINS AT TOP 
+@import "normalize";
+
+// HELPER
+@import "media-queries";
+
+// STYLE INCLUDES
+@import "main/mobile";			// normal
+@import "main/intermediate";	// min-w 480px
+@import "main/wide";			// min-w 768px
+@import "main/max";				// min-w 1140px
+@import "main/helper";			// helper
+
+// REMAINS AT BOTTOM 
+@import "print";
+@import "../../../bower_components/font-awesome/scss/font-awesome";

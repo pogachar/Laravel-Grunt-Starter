@@ -1,0 +1,27 @@
+{
+  "name": "Grunt_Laravel4",
+  "version": "0.0.1",
+  "description": "Grunt (concat, sass, compass, watch, phpunit) with Laravel 4 (way-generator) Initial setup",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "laravel",
+    "grunt",
+    "concat",
+    "sass",
+    "compass",
+    "watch",
+    "phpunit",
+    "way-generator"
+  ],
+  "author": "Jernej Pogačar",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-phpunit": "~0.3.3",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}
