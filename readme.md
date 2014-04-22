@@ -35,7 +35,7 @@ Initial setup of Laravel PHP framework with Grunt task runner for faster project
 3. `npm install` for Grunt dependencies
 4. `bower install` for Bower dependencies
 5. `grunt copy` to copy font-awesome fonts to `public/fonts`
-6. `php artisa key:generate` to generate a random key
+6. `php artisan key:generate` to generate a random key
 7. Setup database in `app/config/database.php`
 
 ---
@@ -45,6 +45,7 @@ Initial setup of Laravel PHP framework with Grunt task runner for faster project
 Run `artisan serve & grunt watch` to start the development server and start watching for changes with grunt.
 
 SCSS files are included in app/assets/scss/ and are divided into main and backend. Compiled files are saved to public/css/.
+
 JS files are included in app/assets/js/. jQuery is concatenated and copied into public/js/scripts.js.
 
 ---
@@ -52,13 +53,10 @@ JS files are included in app/assets/js/. jQuery is concatenated and copied into 
 ### Feel free to use for your own projects
 
 ---
----
 
 ### Laravel
 
 Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
 
 ### Grunt
 
