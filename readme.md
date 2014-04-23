@@ -15,7 +15,7 @@ Initial setup of Laravel PHP framework with Grunt task runner for faster project
 	* grunt-contrib-sass 0.7.3 (optional, compass active)
 	* grunt-contrib-compass 0.7.2
 	* grunt-contrib-watch 0.6.1
-	* grunt-contrib-watch 0.6.1
+	* grunt-contrib-copy 0.5.0
 	* grunt-phpunit 0.3.3
 3. Bower
 	* jQuery 2.1.0
